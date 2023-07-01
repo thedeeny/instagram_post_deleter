@@ -4,7 +4,7 @@ import my_config
 import random
 
 bot = Bot()
-bot.login(username=my_config.USERNAME, password=my_config.PASSWORD)
+bot.login(username=YOUR_USERNAME, password=YOUR_PASSWORD) # fill in your username and password for instagram
 
 medias = bot.get_total_user_medias(bot.user_id)
 
